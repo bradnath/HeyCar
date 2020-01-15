@@ -8,12 +8,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <div class="header-container">
         <header>
             <!-- add header options here later -->
@@ -27,12 +25,13 @@
         <!-- Questions organized as an unordered list-->
         <div class="question-list">
             <ul>
-                <li class="question1">
-                    <h3 class="question"></h3>
-                    <p class="published-at"></p>
-                    <p class="length"></p>
+                <li id="question1">
+                    <h3 id="questionA"></h3>
+                    <p id="published-at">Published at: </p>
+                    <p id="length">Choice Length: </p>
                 </li>
-                <li class="question2">
+                <!--
+                    <li class="question2">
                     <h3 class="question"></h3>
                     <p class="published-at"></p>
                     <p class="length"></p>
@@ -67,55 +66,13 @@
                     <p class="published-at"></p>
                     <p class="length"></p>
                 </li>
+                -->
             </ul>
         </div> 
-
-        <!-- Questions organized as individual div's
-        <div class="question1">
-            <h3 class="question"></h3>
-            <p class="published-at"></p>
-            <p class="length"></p>
-        </div>
-        <div class="question2">
-            <h3 class="question"></h3>
-            <p class="published-at"></p>
-            <p class="length"></p>
-        </div>
-        <div class="question3">
-            <h3 class="question"></h3>
-            <p class="published-at"></p>
-            <p class="length"></p>
-        </div>
-        <div class="question4">
-            <h3 class="question"></h3>
-            <p class="published-at"></p>
-            <p class="length"></p>
-        </div>
-        <div class="question5">
-            <h3 class="question"></h3>
-            <p class="published-at"></p>
-            <p class="length"></p>
-        </div>
-        <div class="question6">
-            <h3 class="question"></h3>
-            <p class="published-at"></p>
-            <p class="length"></p>
-        </div>
-        <div class="question7">
-            <h3 class="question"></h3>
-            <p class="published-at"></p>
-            <p class="length"></p>
-        </div>
-        <div class="question8">
-            <h3 class="question"></h3>
-            <p class="published-at"></p>
-            <p class="length"></p>
-        </div>
-         -->
     </div>
 
     <div class="detail-container">
-        <h2 class="question-details">Questions Detail</h2>
+        <h2 class="question-details",>Questions Detail</h2>
         <ul class="question-tables">
             <h3 class="question1">"Question: " + </h3>
             <table class="table1">
@@ -344,6 +301,8 @@
         </ul>
                
     </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
